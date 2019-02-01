@@ -1,0 +1,5 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - 'lib/core_extensions/hash/hash_recursive_merge.rb'
